@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "PedroMod",
+  "version": "${version}",
+  "name": "PedroMod",
+  "description": "Puto el que lo lea",
+  "authors": [
+    "Chan"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/PedroMod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "pedro.pedromod.client.PedroModClient"
+    ],
+    "main": [
+      "pedro.pedromod.PedroMod"
+    ]
+  },
+  "mixins": [
+    "PedroMod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
